@@ -28,4 +28,3 @@ Clicking on the notebook links above will open the notebooks directly in Google 
 
 ---
 
-If you want me to generate the README with your actual repo info, please provide your GitHub username and repository name.
