@@ -8,7 +8,7 @@ Predicts hourly river flow at Boggabri using an LSTM network with contextual inp
 - `test_GloFAS_spread_419012.csv` — hourly GloFAS ensemble spread features
 
 **Output:**  
-- Predicted hourly flow rates for Boggabri (as CSV, 16 pages for 16 lead times)
+- Predicted 3-hourly flow rates for Boggabri (as CSV, 16 pages for 16 lead times)
 - Evaluation metrics and/or comparison plots
 
 **Files:**  
@@ -35,4 +35,4 @@ Predicts hourly river flow at Boggabri using an LSTM network with contextual inp
 4. **For local/API:**
     Run python model_testing(if host for API).py.
 
-All data and outputs use hourly time steps. File paths are relative (e.g., ./test_419012.csv, ./test_419001.csv，./test_GloFAS_spread_419012.csv).
+All input data use hourly time steps. File paths are relative (e.g., ./test_419012.csv, ./test_419001.csv，./test_GloFAS_spread_419012.csv).
