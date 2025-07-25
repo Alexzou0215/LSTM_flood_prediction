@@ -258,7 +258,7 @@ if __name__ == "__main__":
 
    # --- 2. Load the saved scaler ---
     # --- Load Model and scaler names (consistent naming) ---
-    model_path = "lstm_flood_pro10_model4.h5"
+    model_path = "lstm_flood_pro10_model2.h5"
     weights_path = model_path + "_best_val.weights.h5"
     scaler_path = model_path.replace('.h5', '_scaler.pkl')
 

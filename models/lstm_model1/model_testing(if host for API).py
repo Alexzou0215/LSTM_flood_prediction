@@ -162,7 +162,7 @@ if __name__ == "__main__":
     lead_time = 16
 
     # Model and scaler filenames (edit as needed)
-    model_path = "lstm_flood_pro10_model2.h5"
+    model_path = "lstm_flood_pro10_model1.h5"
     weights_path = model_path + "_best_val.weights.h5"
     scaler_path = model_path.replace('.h5', '_scaler.pkl')
 

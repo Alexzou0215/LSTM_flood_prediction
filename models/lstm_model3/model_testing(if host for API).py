@@ -402,7 +402,7 @@ if __name__ == "__main__":
 
         # --- 2. Load the saved scaler ---
     # --- Load Model and scaler names (consistent naming) ---
-    model_path = "lstm_flood_pro10_model5.h5"
+    model_path = "lstm_flood_pro10_model3.h5"
     weights_path = model_path + "_best_val.weights.h5"
     scaler_path = model_path.replace('.h5', '_scaler.pkl')
 
@@ -432,7 +432,7 @@ if __name__ == "__main__":
     # --- 6. Make predictions ---
     Y_new_prediction_mean, Y_new_prediction_std = forecast_mc_dropout(model, X_new, scaler,Glofas_new_raw_y_error)
 
-        # --- 7. Plot and save results for a selected lead time (e.g., lead 5) ---
+    # --- 7. Plot and save results for a selected lead time (e.g., lead 5) ---
     plot_results_with_uncertainty(
         actual = Y_new_unscaled,
         predicted = Y_new_prediction_mean,
