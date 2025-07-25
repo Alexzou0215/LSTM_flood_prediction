@@ -7,7 +7,7 @@ Predicts hourly river flow at Boggabri using an LSTM network with contextual inp
 - `test_419001.csv` — hourly flow data from Gunnedah (`timestamp`, `flowrate`)
 
 **Output:**  
-- Predicted hourly flow rates for Boggabri (as CSV, 16 pages for 16 lead times)
+- Predicted 3-hourly flow rates for Boggabri (as CSV, 16 pages for 16 lead times)
 - Evaluation metrics and/or comparison plots
 
 **Files:**  
