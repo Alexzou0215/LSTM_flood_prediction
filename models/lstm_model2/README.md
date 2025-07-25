@@ -29,5 +29,5 @@ Predicts hourly river flow at Boggabri using an LSTM network with contextual inp
 4. **For local/API:**
     Run python model_testing(if host for API).py.
 
-All data and outputs use hourly time steps. File paths are relative (e.g., ./test_419012.csv, ./test_419001.csv).
+All input data use hourly time steps. File paths are relative (e.g., ./test_419012.csv, ./test_419001.csv).
 
